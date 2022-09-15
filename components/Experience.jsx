@@ -5,8 +5,12 @@ import css from "../public/assets/experience/css.png";
 import javascript from "../public/assets/experience/javascript.png";
 import reactImage from "../public/assets/experience/react.png";
 import nextjs from "../public/assets/experience/nextjs.png";
-import tailwind from "../public/assets/experience/html.png";
-import graphql from "../public/assets/experience/graphql.png";
+import tailwind from "../public/assets/experience/tailwind.png";
+import python from "../public/assets/experience/python.png";
+import sql from "../public/assets/experience/sql.png";
+import php from "../public/assets/experience/phpLogo.png";
+import excel from "../public/assets/experience/excel.png";
+import tableau from "../public/assets/experience/tableau.svg";
 import node from "../public/assets/experience/node.png";
 import Image from "next/image";
 
@@ -29,7 +33,7 @@ const Experience = () => {
     },
     {
       id: 4,
-      title: "React",
+      title: "React JS",
       src: reactImage,
     },
     {
@@ -44,13 +48,33 @@ const Experience = () => {
     },
     {
       id: 7,
-      title: "GraphQL",
-      src: graphql,
+      title: "Node JS",
+      src: node,
     },
     {
       id: 8,
-      title: "Node JS",
-      src: node,
+      title: "PHP",
+      src: php,
+    },
+    {
+      id: 9,
+      title: "MySQL",
+      src: sql,
+    },
+    {
+      id: 10,
+      title: "Python",
+      src: python,
+    },
+    {
+      id: 11,
+      title: "Microsoft Excel",
+      src: excel,
+    },
+    {
+      id: 12,
+      title: "Tableau",
+      src: tableau,
     },
   ];
 
@@ -71,7 +95,7 @@ const Experience = () => {
             <div
               key={id}
               className="flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300
-              odd:shadow-rose-400 even:shadow-blue-400"
+              shadow-gray-400 "
             >
               <Image src={src} width="64px" height="64px" alt={title} />
               <h3 className="font-light">{title}</h3>

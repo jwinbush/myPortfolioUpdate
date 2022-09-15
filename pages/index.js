@@ -6,12 +6,13 @@ import Portfolio from "../components/Portfolio";
 
 export default function Home() {
   return (
+    
     <div>
       <HomePage />
       <Portfolio />
       <Experience />
       <Me />
       <Contact />
-    </div>
+      </div>
   );
 }

@@ -2,10 +2,10 @@ import React from "react";
 
 import { MdExpandMore } from "react-icons/md";
 
-import installNode from "../public/assets/portfolio/installNode.jpg";
 import reactParallax from "../public/assets/portfolio/reactParallax.jpg";
-import usestate from "../public/assets/portfolio/usestate.jpg";
-import reactWeather from "../public/assets/portfolio/reactWeather.jpg";
+import retroGames from "../public/assets/portfolio/retroGame.png";
+import reactMovie from "../public/assets/portfolio/reactMov.png";
+import nextSpotify from "../public/assets/portfolio/nextSpotify.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -13,21 +13,22 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "React Movie App: jagged",
-      imageSrc: reactWeather,
-      url: "https://github.com/jwinbush/movie" ,
+      title: "react movie app",
+      imageSrc: reactMovie,
+      url: "react-movie",
     },
     {
       id: 2,
-      title: "Next Music App: Spotify",
-      imageSrc: installNode,
-      url: "https://github.com/jwinbush/spotify",
+      title: "Next Music Website",
+      imageSrc: nextSpotify,
+      url: "next-spotify",
     },
     {
       id: 3,
-      title: "use state explained",
-      imageSrc: usestate,
-      url: "use-state-hook",
+      title: "Retro Games Ecommerce Website",
+      imageSrc: retroGames,
+      url: "retro-games",
+      description: "No",
     },
     {
       id: 4,
@@ -44,14 +45,12 @@ const Portfolio = () => {
           portfolio
         </h2>
         <p className="py-4 max-w-lg">
-          While only that hauntedtell many purple no lent cushions more heart.
-          Soul cushions the still if i, hath lamplight mortals the rapping have
-          me and.
+         These are projects I have worked on. I also have a few projects in developement at the moment.
         </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           {portfolios.map(({ id, title, imageSrc, url }) => (
-            <Link key={id} href={`${url}`}>
+            <Link key={id} href={`/portfolio/${url}`}>
               <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md">
                 <Image
                   src={imageSrc}

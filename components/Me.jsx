@@ -12,22 +12,19 @@ const Me = () => {
           me
         </h2>
 
-        <div className="shadow-xl shadow-gray-400 my-8 px-6">
+        <div className="shadow-xl shadow-gray-400 my-8 px-6 rounded-xl ">
           <p className="py-4 max-w-2xl mx-auto">
             I'm currently a senior studying Informatics at Indiana University-Purdue University of Indianapolis(IUPUI).
              With this study, I have been fortunate enough to learn a vast amount of programming languages and work with data as well. 
-             A longterm goal of mine is to work as an fullstack developer within the next 4-6 years. 
+             I'm advanced in both frontend and backend development, but I still have much to learn. 
+             Most of my knowledge comes studying outside of school, and I realized self motivation plays a huge part in one's success.
+             A longterm goal of mine is to work as an fullstack developer within the next 3-6 years. 
           </p>
           <p className="py-4 max-w-2xl mx-auto">
-
+          When I'm not coding I enjoy realism drawings, Adobe Photoshop, and basically just putting my creativity to use. Recently, I began studying how catchy logos are created and figured I would give it a shot. 
+          I believe this is a great skill to obtain as an web developer.
           </p>
-          <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
-          </p>
+         
         </div>
 
         <div className="flex items-center justify-center gap-10">
