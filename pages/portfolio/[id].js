@@ -35,7 +35,7 @@ const portfolios = [
     url: "retro-games",
     description: "The goal of this website was to give gamers a nostalglic feeling. This was developed using PHP, PhpMyAdmin, and JavaScript. To edit products, you must be signed in as an administrator. The admin user is jwinbush@iu.edu and the password is 333.",
     siteLink: "/",
-    gitLink: "https://github.com/jwinbush/retroGaming",
+    gitLink: "https://github.com/jwinbush/RetroGames",
 
   },
   {
