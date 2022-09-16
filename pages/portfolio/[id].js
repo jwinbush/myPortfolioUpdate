@@ -16,7 +16,7 @@ const portfolios = [
     imageSrc: reactMovie,
     url: "react-movie",
     description: "A reponsive movie website built with ReactJS. All movie descriptions were fetched from TMBD's API. On the otherhand, all data for movie trailers were fetched from YouTube. Firebase was used for deployment.",
-    siteLink: "https://jagged-movie.web.app/",
+    siteLink: "https://intelo-movies.vercel.app/",
     gitLink: "https://github.com/jwinbush/movie",
   },
   {
