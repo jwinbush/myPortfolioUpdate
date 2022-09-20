@@ -1,7 +1,7 @@
 import React from "react";
 import reactParallax from "../../public/assets/portfolio/reactParallax.jpg";
 import retroGames from "../public/assets/portfolio/retroGame.png";
-import reactMovie from "../../public/assets/portfolio/reactMov.png";
+import reactMovie from "../public/assets/portfolio/InteloHome.png";
 import nextSpotify from "../../public/assets/portfolio/nextSpotify.png";
 import { MdExpandMore } from "react-icons/md";
 import Link from "next/link";
