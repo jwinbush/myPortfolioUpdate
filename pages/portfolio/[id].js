@@ -16,7 +16,7 @@ const portfolios = [
     imageSrc: reactMovie,
     url: "react-movie",
     description: "A reponsive movie website built with ReactJS. All movie descriptions were fetched from TMBD's API. On the otherhand, all data for movie trailers were fetched from YouTube. Firebase was used for deployment.",
-    siteLink: "https://intelo-movies.vercel.app/",
+    siteLink: "https://intelo.vercel.app/",
     gitLink: "https://github.com/jwinbush/movie",
   },
   {
@@ -25,7 +25,7 @@ const portfolios = [
       imageSrc: nextSpotify,
       url: "next-spotify",
       description: "A Spotify clone built with NextJS and Tailwind CSS. I followed a tutorial to complete this project. All personal data was fetched from Spotify's API. In order for this clone to work smoothly, I must have Spotify open at the same time you're demoing the clone. When you choose a song on Spotify's clone, the song will play on my PC giving you control over the volume and song selection as well. The clone is basically in sync with the real Spotify app.",
-      siteLink: "https://www.jawinbush.com/login",
+      siteLink: "https://www.jawonwinbush.com/login",
       gitLink: "https://github.com/jwinbush/spotify",
   },
   {
